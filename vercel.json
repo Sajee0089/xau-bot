@@ -4,9 +4,7 @@
     { "source": "/(.*)",       "destination": "/index.html" }
   ],
   "functions": {
-    "api/**/*.js": {
-      "maxDuration": 15
-    }
+    "api/**/*.js": { "maxDuration": 15 }
   },
-  "regions": ["sin1", "hnd1", "syd1"]
+  "regions": ["sin1", "hnd1", "syd1", "cdg1"]
 }
